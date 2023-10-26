@@ -8,6 +8,8 @@ RUN npm install
 
 COPY . .
 
+RUN npm install rxjs@^6.5.3
+
 RUN npm run build
 
 EXPOSE 4200
